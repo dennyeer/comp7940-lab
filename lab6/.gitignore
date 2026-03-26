@@ -1,0 +1,29 @@
+# 虚拟环境文件夹（不提交）
+venv/
+
+# 配置文件（含Token，不提交）
+config.ini
+
+# Python编译文件（自动生成，不提交）
+__pycache__/
+*.pyc
+
+# 日志文件（如果有，不提交）
+*.log
+
+# AWS / SSH 私钥文件（绝对不要提交）
+*.pem
+
+# 系统文件（Mac / Windows）
+.DS_Store
+Thumbs.db
+
+# VSCode配置（可选）
+.vscode/
+
+# Python虚拟环境缓存
+*.pyo
+*.pyd
+
+# 环境变量文件
+.env
